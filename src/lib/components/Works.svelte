@@ -8,8 +8,11 @@
 	];
 
 	const works = [
-		{ image: '/img/work-1.png', category: 'makeup' },
-		{ image: '/img/work-2.png', category: 'hair' }
+		{ image: '/img/work-1.png', category: 'brows' },
+		{ image: '/img/work-2.png', category: 'makeup' },
+		{ image: '/img/work-3.png', category: 'nails' },
+		{ image: '/img/work-4.png', category: 'makeup' },
+		{ image: '/img/work-5.png', category: 'hair' }
 	];
 
 	const filteredWorks = $derived(

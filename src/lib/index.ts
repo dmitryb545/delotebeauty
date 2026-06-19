@@ -1,1 +1,11 @@
 // Reexport your entry components here
+import Hero from "./components/Hero.svelte"
+import ContactSection from "./components/ContactSection.svelte"
+import Footer from "./components/Footer.svelte"
+import Header from "./components/Header.svelte"
+import MasterSection from "./components/MasterSection.svelte"
+import QuoteBlock from "./components/QuoteBlock.svelte"
+import ServiceCard from "./components/ServiceCard.svelte"
+import Services from "./components/Services.svelte"
+import ServiceSection from "./components/ServiceSection.svelte"
+import Works from "./components/Works.svelte"

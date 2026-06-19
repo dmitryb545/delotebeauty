@@ -13,6 +13,7 @@
 <header>
 	<div class="container">
 		{#if !menuOpen}
+			<!-- svelte-ignore event_directive_deprecated -->
 			<button
 				class="burger"
 				on:click={openMenu}
@@ -22,8 +23,8 @@
 			</button>
 		{/if}
 
-		<!-- Крестик -->
 		{#if menuOpen}
+			<!-- svelte-ignore event_directive_deprecated -->
 			<button
 				class="close"
 				on:click={closeMenu}
@@ -54,6 +55,7 @@
 		</nav>
 
 		{#if menuOpen}
+			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<div class="overlay active" on:click={closeMenu}></div>
 		{/if}
 
